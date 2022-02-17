@@ -96,5 +96,56 @@ let pacientesTraumatologia = [
     hora = "12:30",
     prevision = "ISAPRE"
 }, 
+
+];
+
+let pacientesDental = [
+    {
+    paciente = "MARCELA RETAMAL",
+    rut = "11123425-6",
+    especialista = "ANDREA ZUÑIGA",
+    hora = "8:30",
+    prevision = "ISAPRE"
+},
+
+{
+    paciente = "ANGEL MUÑOZ",
+    rut = "9878789-2",
+    especialista = "MARIA PIA ZAÑARTU",
+    hora = "11:00",
+    prevision = "ISAPRE"
+},
+
+{
+    paciente = "MARIO KAST",
+    rut = "7998789-5",
+    especialista = "SCARLETT WITTING",
+    hora = "11:30",
+    prevision = "FONASA"
+}, 
+
+{
+    paciente = "KARIN FERKARIN FERNANDEZ",
+    rut = "18887662-K",
+    especialista = "FRANCISCO VON TEUBER",
+    hora = "1:00",
+    prevision = "FONASA"
+}, 
+
+{
+    paciente = "HUGO SANCHEZ",
+    rut = "17665461-4",
+    especialista = "EDUARDO VIÑUELA",
+    hora = "1:30",
+    prevision = "FONASA"
+}, 
+
+{
+    paciente = "ANA SEPULVEDA",
+    rut = "14441281-0",
+    especialista = "RAQUEL VILLASECA",
+    hora = "2:00",
+    prevision = "ISAPRE"
+}
 ];
 
