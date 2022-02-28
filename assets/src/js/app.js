@@ -171,6 +171,8 @@ Ultimo paciente  ${lastPatientTraumatologia.paciente} - ${lastPatientTraumatolog
 <h2>Dental</h2> <p>Primer paciente: ${firstPatientDental.paciente} - ${firstPatientDental.prevision} | 
 Ultimo paciente  ${lastPatientDental.paciente} - ${lastPatientDental.prevision}</p>`;
 
+
+
 // Tabla radiología
 
 let radiologia = `<caption>Tabla Radiología</caption> <tr><th>Nombre</th><th>Rut</th><th>Especialista</th><th>Hora</th><th>Previsión</th></tr>`;
