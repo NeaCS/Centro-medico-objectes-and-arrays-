@@ -171,6 +171,8 @@ Ultimo paciente  ${lastPatientTraumatologia.paciente} - ${lastPatientTraumatolog
 <h2>Dental</h2> <p>Primer paciente: ${firstPatientDental.paciente} - ${firstPatientDental.prevision} | 
 Ultimo paciente  ${lastPatientDental.paciente} - ${lastPatientDental.prevision}</p>`;
 
+// Tabla radiología
+
 let radiologia = `<caption>Tabla Radiología</caption> <tr><th>Nombre</th><th>Rut</th><th>Especialista</th><th>Hora</th><th>Previsión</th></tr>`;
 
 
@@ -188,7 +190,7 @@ radiologia += `<tr style="border: solid 2px green">
 
 document.querySelector('.tabla1').innerHTML = radiologia;
 
-
+// tabla traumatología
 
 let traumatologia = `<caption>Tabla traumatología</caption> <tr><th>Nombre</th><th>Rut</th><th>Especialista</th><th>Hora</th><th>Previsión</th></tr>`;
 
@@ -206,6 +208,8 @@ traumatologia += `<tr style="border: solid 2px green">
 }
 
 document.querySelector('.tabla2').innerHTML = traumatologia;
+
+// tabla dental
 
 let dental = `<caption>Tabla Dental</caption> <tr><th>Nombre</th><th>Rut</th><th>Especialista</th><th>Hora</th><th>Previsión</th></tr>`;
 
